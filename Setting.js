@@ -59,7 +59,7 @@ global.maher_api = process.env.MAHER_API || `https://api.maher-zubair.tech/` ; /
 
 //===========================[COMPULSORY VARIABLES]================================
 global.owner = process.env.OWNER_NUMBER  || '923084713397' ;  // ADD YOUR NUMBER WITHOUT +
-global.mongodb = process.env.MONGODB_URI || "" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
+global.mongodb = process.env.MONGODB_URI || " ac-ozd8ub9-shard-00-01.qcr0rzg.mongodb.net:27017" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
 global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi' // ADD CORRECT TIMEZONE OR LEAVE IT SAME , OTHERWISE YOU GET ERROS
 //=================================================================================
 
